@@ -53,6 +53,7 @@ public class MyController {
 //        return mv;
 
 //        return null;
+        System.out.println("shuru");
         SecurityUtils.setSecurityManager(securityManager);
         Subject subject = SecurityUtils.getSubject();
         try {
