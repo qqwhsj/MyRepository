@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.woniuxy.dao.OvertimeMapper" >
+  <resultMap id="BaseResultMap" type="com.woniuxy.entity.Overtime" >
+    <id column="oid" property="oid" jdbcType="VARCHAR" />
+    <result column="oname" property="oname" jdbcType="VARCHAR" />
+    <result column="submitTime" property="submittime" jdbcType="VARCHAR" />
+    <result column="otBegin" property="otbegin" jdbcType="VARCHAR" />
+    <result column="otOver" property="otover" jdbcType="VARCHAR" />
+    <result column="duration" property="duration" jdbcType="VARCHAR" />
+    <result column="discription" property="discription" jdbcType="VARCHAR" />
+    <result column="isRatify" property="isratify" jdbcType="INTEGER" />
+  </resultMap>
+  <select id="findCountOvertime" resultType="int">
+    select count(*) from overtime
+  </select>
+  <select id="findAllOverTime" resultType="Overtime">
+    select * from overtime
+    <where>
+      <if test="oname!=null and oname!=''">
+        and oname like CONCAT('%',#{oname},'%')
+      </if>
+    </where>
+    limit #{index},#{size}
+  </select>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    oid, oname, submitTime, otBegin, otOver, duration, discription, isRatify
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.woniuxy.entity.OvertimeExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from overtime
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from overtime
+    where oid = #{oid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from overtime
+    where oid = #{oid,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.woniuxy.entity.OvertimeExample" >
+    delete from overtime
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.woniuxy.entity.Overtime" >
+    insert into overtime (oid, oname, submitTime, 
+      otBegin, otOver, duration, 
+      discription, isRatify)
+    values (#{oid,jdbcType=VARCHAR}, #{oname,jdbcType=VARCHAR}, #{submittime,jdbcType=VARCHAR}, 
+      #{otbegin,jdbcType=VARCHAR}, #{otover,jdbcType=VARCHAR}, #{duration,jdbcType=VARCHAR}, 
+      #{discription,jdbcType=VARCHAR}, #{isratify,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.woniuxy.entity.Overtime" >
+    insert into overtime
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="oid != null" >
+        oid,
+      </if>
+      <if test="oname != null" >
+        oname,
+      </if>
+      <if test="submittime != null" >
+        submitTime,
+      </if>
+      <if test="otbegin != null" >
+        otBegin,
+      </if>
+      <if test="otover != null" >
+        otOver,
+      </if>
+      <if test="duration != null" >
+        duration,
+      </if>
+      <if test="discription != null" >
+        discription,
+      </if>
+      <if test="isratify != null" >
+        isRatify,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="oid != null" >
+        #{oid,jdbcType=VARCHAR},
+      </if>
+      <if test="oname != null" >
+        #{oname,jdbcType=VARCHAR},
+      </if>
+      <if test="submittime != null" >
+        #{submittime,jdbcType=VARCHAR},
+      </if>
+      <if test="otbegin != null" >
+        #{otbegin,jdbcType=VARCHAR},
+      </if>
+      <if test="otover != null" >
+        #{otover,jdbcType=VARCHAR},
+      </if>
+      <if test="duration != null" >
+        #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="discription != null" >
+        #{discription,jdbcType=VARCHAR},
+      </if>
+      <if test="isratify != null" >
+        #{isratify,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.woniuxy.entity.OvertimeExample" resultType="java.lang.Integer" >
+    select count(*) from overtime
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update overtime
+    <set >
+      <if test="record.oid != null" >
+        oid = #{record.oid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.oname != null" >
+        oname = #{record.oname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.submittime != null" >
+        submitTime = #{record.submittime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.otbegin != null" >
+        otBegin = #{record.otbegin,jdbcType=VARCHAR},
+      </if>
+      <if test="record.otover != null" >
+        otOver = #{record.otover,jdbcType=VARCHAR},
+      </if>
+      <if test="record.duration != null" >
+        duration = #{record.duration,jdbcType=VARCHAR},
+      </if>
+      <if test="record.discription != null" >
+        discription = #{record.discription,jdbcType=VARCHAR},
+      </if>
+      <if test="record.isratify != null" >
+        isRatify = #{record.isratify,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update overtime
+    set oid = #{record.oid,jdbcType=VARCHAR},
+      oname = #{record.oname,jdbcType=VARCHAR},
+      submitTime = #{record.submittime,jdbcType=VARCHAR},
+      otBegin = #{record.otbegin,jdbcType=VARCHAR},
+      otOver = #{record.otover,jdbcType=VARCHAR},
+      duration = #{record.duration,jdbcType=VARCHAR},
+      discription = #{record.discription,jdbcType=VARCHAR},
+      isRatify = #{record.isratify,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.woniuxy.entity.Overtime" >
+    update overtime
+    <set >
+      <if test="oname != null" >
+        oname = #{oname,jdbcType=VARCHAR},
+      </if>
+      <if test="submittime != null" >
+        submitTime = #{submittime,jdbcType=VARCHAR},
+      </if>
+      <if test="otbegin != null" >
+        otBegin = #{otbegin,jdbcType=VARCHAR},
+      </if>
+      <if test="otover != null" >
+        otOver = #{otover,jdbcType=VARCHAR},
+      </if>
+      <if test="duration != null" >
+        duration = #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="discription != null" >
+        discription = #{discription,jdbcType=VARCHAR},
+      </if>
+      <if test="isratify != null" >
+        isRatify = #{isratify,jdbcType=INTEGER},
+      </if>
+    </set>
+    where oid = #{oid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.woniuxy.entity.Overtime" >
+    update overtime
+    set oname = #{oname,jdbcType=VARCHAR},
+      submitTime = #{submittime,jdbcType=VARCHAR},
+      otBegin = #{otbegin,jdbcType=VARCHAR},
+      otOver = #{otover,jdbcType=VARCHAR},
+      duration = #{duration,jdbcType=VARCHAR},
+      discription = #{discription,jdbcType=VARCHAR},
+      isRatify = #{isratify,jdbcType=INTEGER}
+    where oid = #{oid,jdbcType=VARCHAR}
+  </update>
+</mapper>
