@@ -63,6 +63,8 @@ public class MyController {
         } catch (AuthenticationException e) {
             e.printStackTrace();
             System.out.println("登录失败");
+            System.out.println("登录失败");
+            System.out.println("登录失败");
         }
         return new ModelAndView("login.jsp");
     }

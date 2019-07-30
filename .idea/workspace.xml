@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d00feef2-699f-4b6e-afa1-00a7c3825bb1" name="Default Changelist" comment="上传">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/controller/MyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/controller/SignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/dao/MsgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/dao/OffTimeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/dao/OvertimeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/dao/SignMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/dao/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/MsgExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/MsgExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/MsgExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/MsgExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/OffTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/Overtime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/OvertimeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/OvertimeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/OvertimeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/OvertimeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/Sign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/SignExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/SignExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/SignExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/SignExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/UsersExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/UsersExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/UsersExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/entity/UsersExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/exception/SignException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/mapper/MsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/mapper/OffTimeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/mapper/OvertimeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/mapper/SignMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/realm/MyRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/service/SignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/service/impl/SignServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/test/EncodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/test/HashUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/woniuxy/test/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-entity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-tx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springtotal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-07-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/iii_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/iii_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/addUser_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/addUser_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/attendanceSetting_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/attendanceSetting_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/attendance_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/attendance_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/overtime_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/overtime_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/updateAttendanceSetting_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/updateAttendanceSetting_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/userInfo_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/userInfo_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/userList_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/mavenssm01/org/apache/jsp/system/userList_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/MyController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mavenssm01" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/controller/MyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="D-503" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="afdce983-d194-46f1-b1ac-a7c676699196" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/exception/UserException.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/mybatisConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-entity.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/Msg.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/addUser.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/userInfo.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/user-info.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/fail.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/iii.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/realm/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/MsgMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/dao/MsgMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/userList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/Sign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/dao/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/index/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/dao/SignMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/SignMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/attendance.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/OffTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/dao/OffTimeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/OffTimeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/exception/SignException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/test/EncodeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/updateAttendanceSetting.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/attendance.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/attendanceSetting.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/updateAttendanceSetting.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/addUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/service/SignService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/service/impl/SignServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/index/menu.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/SignController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/test/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/OvertimeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/dao/OvertimeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/entity/Overtime.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/system/overtime.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/woniuxy/controller/MyController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\development\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mavenssm01 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="434" />
+    <option name="y" value="94" />
+    <option name="width" value="800" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="woniuxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenssm01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenssm01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="woniuxy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea for java\mavenssm01\src\main\java\com\woniuxy\mapper" />
+      <recent name="D:\workspace\idea for java\mavenssm01\src\main\java\com\woniuxy\entity" />
+      <recent name="D:\workspace\idea for java\mavenssm01\src\main\webapp\bootstrap" />
+      <recent name="D:\workspace\idea for java\mavenssm01\src\main\java\com\woniuxy\dao" />
+      <recent name="D:\workspace\idea for java\mavenssm01\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.woniuxy.dao" />
+      <recent name="com.woniuxy.service" />
+      <recent name="com.woniuxy.entity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.woniuxy.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.test">
+    <configuration name="HashUtils.getHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenssm01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woniuxy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woniuxy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.woniuxy.test.HashUtils" />
+      <option name="METHOD_NAME" value="getHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.shirotest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenssm01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woniuxy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woniuxy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.woniuxy.test.MyTest" />
+      <option name="METHOD_NAME" value="shirotest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenssm01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woniuxy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woniuxy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.woniuxy.test.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest.shirotest" />
+        <item itemvalue="JUnit.HashUtils.getHash" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d00feef2-699f-4b6e-afa1-00a7c3825bb1" name="Default Changelist" comment="" />
+      <created>1562141941810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562141941810</updated>
+      <workItem from="1562141945087" duration="4671000" />
+      <workItem from="1562165702832" duration="2869000" />
+      <workItem from="1562205132771" duration="21438000" />
+      <workItem from="1562230616788" duration="2512000" />
+      <workItem from="1562233183192" duration="7816000" />
+      <workItem from="1562289664445" duration="5094000" />
+      <workItem from="1562548297083" duration="10942000" />
+      <workItem from="1562635546603" duration="5667000" />
+      <workItem from="1562721948942" duration="7861000" />
+      <workItem from="1562731740583" duration="6059000" />
+      <workItem from="1562757441416" duration="5042000" />
+      <workItem from="1562808742287" duration="23734000" />
+      <workItem from="1562854699900" duration="6371000" />
+      <workItem from="1562894384844" duration="21679000" />
+      <workItem from="1562983321571" duration="3156000" />
+      <workItem from="1563022462266" duration="624000" />
+      <workItem from="1563154214735" duration="17203000" />
+      <workItem from="1563189454514" duration="4383000" />
+      <workItem from="1563240408735" duration="6100000" />
+      <workItem from="1563257277090" duration="6619000" />
+      <workItem from="1563763929458" duration="4486000" />
+      <workItem from="1563775923354" duration="2049000" />
+      <workItem from="1564038837847" duration="6328000" />
+      <workItem from="1564055365786" duration="31000" />
+      <workItem from="1564060305155" duration="2484000" />
+      <workItem from="1564130523075" duration="155000" />
+      <workItem from="1564458368656" duration="97000" />
+    </task>
+    <task id="LOCAL-00001" summary="上传">
+      <created>1564040588233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564040588233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyTest_test - 2019.07.04 at 14h 38m 14s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashUtils_getHash - 2019.07.04 at 14h 43m 59s.xml">
+      <configuration name="HashUtils.getHash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_shirotest - 2019.07.10 at 18h 57m 09s.xml">
+      <configuration name="MyTest.shirotest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_shirotest - 2019.07.10 at 18h 57m 39s.xml">
+      <configuration name="MyTest.shirotest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_shirotest - 2019.07.10 at 19h 20m 23s.xml">
+      <configuration name="MyTest.shirotest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.07.12 at 16h 49m 07s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.07.12 at 16h 49m 26s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.07.12 at 16h 50m 00s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.07.12 at 16h 50m 26s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.07.12 at 16h 51m 04s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="185470000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7847222" visible="true" weight="0.21336761" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.21527778" side_tool="true" weight="0.21015424" />
+      <window_info id="Structure" order="6" sideWeight="0.25252524" weight="0.2159383" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.91580975" visible="true" weight="0.13472222" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.14974293" weight="0.4611111" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27816412" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32962447" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4993573" weight="0.38942978" />
+      <window_info anchor="bottom" id="Web" order="15" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="16" sideWeight="0.4993573" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.075835474" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889785" visible="true" weight="0.21979435" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.21102151" side_tool="true" weight="0.2159383" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" sideWeight="0.25252524" weight="0.2159383" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.91645247" visible="true" weight="0.31111112" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.083547555" side_tool="true" weight="0.9596774" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.019280206" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zhusih" />
+    <MESSAGE value="上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/MsgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/dao/MsgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/dao/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#frame#0;n#frameset#0;n#frameset#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#frame#1;n#frameset#0;n#frameset#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.2.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="7914" selection-start-line="7914" selection-end-line="7914" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/SignMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/dao/SignMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/dao/OffTimeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/OffTimeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/exception/SignException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/entity/OffTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/test/HashUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/attendanceSetting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/attendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/addUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/attendanceStatistics.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/noticeExamin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/officeApply.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/jurisdiction.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/fail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/examine.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/leave.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/noticeDetail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/work.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/schedule.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/overtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/test/EncodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/service/SignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/exception/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/index/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/test/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/entity/OvertimeExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/mapper/OvertimeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/service/impl/SignServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/updateAttendanceSetting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1148">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/attendance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mtspring.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/system/overtime.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/dao/OvertimeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/entity/Overtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gitconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/bootstrap-datetimepicker/tests/tests.min.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/springtotal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/controller/SignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="151" column="41" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/woniuxy/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mavenssm01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="tomcat7:run" />
+    <option value="clean:clean" />
+  </component>
+</project>
